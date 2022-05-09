@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoctorCare</title>
+
+    <!--connections-->
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/home.css">
+    <link rel="stylesheet" href="./src/css/card-about.css">
+    <link rel="stylesheet" href="./src/css/services.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body onscroll="onScroll()">
+    <header>
+        <nav>
+            <h1 class="logo-title">Doctor<strong>Care</strong></h1>
+            <ul class="list-app">
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#services">Serviços</a>
+                </li>
+                <li>
+                    <a href="">Depoimentos</a>
+                </li>
+            </ul>
+
+            <li class="reserve toggle-nav">
+                <a href="#">Agendar horário</a>
+            </li>
+
+            <button class="bt-toggle" onclick="Modal.toggleVisible()">
+                <img src="./assets/svg/Icon-dark.svg" alt="icone para mostrar o menu mobile" class="icon-menu">
+        </button>
+        </nav>
+    </header>
+
+
+    <div class="menu-toggle-set" id="get-element">
+        <button id="get-element">
+            <a href="#" id="get-element" onclick="Modal.Functions.toggleNone()">X</a>
+        </button>
+        <ul class="menu-toggle-set nav-toggle" id="get-element">
+            <li>
+                <a href="#home">Início</a>
+            </li>
+            <li>
+                <a href="#about">Sobre</a>
+            </li>
+            <li>
+                <a href="#services">Serviços</a>
+            </li>
+            <li>
+                <a href="#answers">Depoimentos</a>
+            </li>
+            <li class="reserve-toggle ">
+                <a href="#" class="reserve-link">Agendar horário</a>
+            </li>
+        </ul>
+    </div>
+
+    <main class="container">
+        <section id="home">
+            <div class="content-home">
+                <h4 class="welcome-to">Bem-vindos a DoctorCare 👋</h4>
+                <div class="text-home">
+                    <h1 class="title-section">Assistência médica simplificada para todos.</h1>
+                    <p class="description-home">Os médicos da DoctorCare vão além dos sintomas para tratar a causa raiz
+                        de sua doença e proporcionar uma cura a longo prazo.</p>
+                    <a href="" class="call-me">
+                        <img src="./assets/svg/whatsapp.svg" alt="">
+                        <p>
+                            Agende sua consulta</p>
+                    </a>
+                </div>
+                <img src="./assets/png/img-home.png" alt="imagem de uma pessoa apresentativa no início do site"
+                    class="person-home">
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="content-card">
+                <div class="card">
+                    <h3 class="number">+3.500</h3>
+                    <p class="description-about">Pacientes atendidos</p>
+                </div>
+                <div class="card">
+                    <h3 class="number">+15</h3>
+                    <p class="description-about">Especialistas disponíveis</p>
+                </div>
+                <div class="card">
+                    <h3 class="number">+10</h3>
+                    <p class="description-about">Anos no mercado</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="content-services">
+                <h4 class="welcome-to">Serviços</h4>
+            <div class="text-services">
+                <h1 class="title-section">Como podemos te ajudá-lo a se sentir melhor?</h1>
+            </div>
+            <div class="content-cards-services">
+                <div class="card-service">
+                    <span>
+                        <img src="assets/svg/check.svg" alt="ícone de serviço checado" class="icon-check-service">
+                    </span>
+                    <h3 class="title-card-service"></h3>
+                        <p class="description-card-service"></p>
+                    </img>
+                </div>
+                <div class="card-service">
+                    <span>
+                        <img src="assets/svg/check.svg" alt="ícone de serviço checado" class="icon-check-service">
+                    </span>
+                    <h3 class="title-card-service"></h3>
+                        <p class="description-card-service"></p>
+                    </img>
+                </div>
+                <div class="card-service">
+                    <span>
+                        <img src="assets/svg/check.svg" alt="ícone de serviço checado" class="icon-check-service">
+                    </span>
+                    <h3 class="title-card-service"></h3>
+                        <p class="description-card-service"></p>
+                    </img>
+                </div>
+                <div class="card-service">
+                    <span>
+                        <img src="assets/svg/check.svg" alt="ícone de serviço checado" class="icon-check-service">
+                    </span>
+                    <h3 class="title-card-service"></h3>
+                        <p class="description-card-service"></p>
+                    </img>
+                </div>
+                <div class="card-service">
+                    <span>
+                        <img src="assets/svg/check.svg" alt="ícone de serviço checado" class="icon-check-service">
+                    </span>
+                    <h3 class="title-card-service"></h3>
+                        <p class="description-card-service"></p>
+                    </img>
+                </div>
+                <div class="card-service">
+                    <span>
+                        <img src="assets/svg/check.svg" alt="ícone de serviço checado" class="icon-check-service">
+                    </span>
+                    <h3 class="title-card-service">lorem</h3>
+                        <p class="description-card-service"></p>
+                    </img>
+                </div>
+            </div>
+            </div>
+            
+        </section>
+    </main>
+    <script src="./src/js/app.js"></script>
+
+</body>
+
+</html>

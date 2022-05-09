@@ -1,0 +1,50 @@
+
+body, * {
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root {
+    --home-background-color: #DCE9E2;
+    --services-background-color: #F7F9F9;
+    --general-color-theme: #00856F; 
+    --general-color-fonts: #fff;
+    --title-home-size: 36px;
+    --description-home-size: 18px;
+    --description-home-color: #495057;
+    --secondary-color-grays-headline: #212529;
+
+}
+
+ul,li,a {
+    text-decoration: none;
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: 0;
+}
+
+.logo-title strong {
+    color: var(--general-color-theme);
+}
+
+.title-section {
+    margin: 1rem 0;
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.welcome-to{
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--general-color-theme);
+    text-transform: uppercase;
+}
+
+
