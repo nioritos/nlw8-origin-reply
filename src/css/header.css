@@ -44,6 +44,8 @@ nav li a:hover {
     transition: 0.5s;
     opacity: 1;
     color: var(--general-color-theme);
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
 }
 
 .reserve {

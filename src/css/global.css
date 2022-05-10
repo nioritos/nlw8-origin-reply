@@ -10,6 +10,7 @@ body, * {
 :root {
     --home-background-color: #DCE9E2;
     --services-background-color: #F7F9F9;
+    --about-background-color: #FFFAF1;
     --general-color-theme: #00856F; 
     --general-color-fonts: #fff;
     --title-home-size: 36px;
