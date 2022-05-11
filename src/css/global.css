@@ -52,3 +52,28 @@ button {
 }
 
 
+.scroll-to-home {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 0;
+    width: 90%;
+    height: 95%;
+}
+
+.scroll-to-home button {
+    WIDTH: 9%;
+    HEIGHT: 8%;
+    background: #00856F;
+    padding: 1.3rem;
+    border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-to-home button img {
+    max-width: 32px;
+    border-radius:  0.5rem;
+}

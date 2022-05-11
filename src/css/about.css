@@ -13,8 +13,9 @@
 }
 
 .text-about, .img-about {
-    max-width: 90%;
-    width: 90%;
+    max-width: 80%;
+    width: 80%;
+    height: auto;
     
     margin: 0.7rem 0;
 }
