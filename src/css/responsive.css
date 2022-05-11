@@ -23,6 +23,7 @@
     .nav-toggle li a:hover {
         transition: 0.5s;
         opacity: 1;
+        
     }
 
     .toggled{
@@ -47,6 +48,14 @@
         left: 0;
     }
 
+    button#get-button {
+        width: 85%;
+        height: 85%;
+        
+        display: flex !important;
+        justify-content: flex-end;
+    }
+
     .menu-toggle-set li {
         margin: 2rem 0;
     }
@@ -63,8 +72,20 @@
         border-radius: 0.50rem;
     }
 
-    .reserve-link {
-        color: var(--general-color-theme);
+    .reserve-toggle:hover {
+        transition: 0.5s;
+        box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+
+    }
+
+    .reserve-toggle a {
+        color: var(--general-color-theme) !important;
+    }
+
+    .reserve-toggle a:hover {
+        transition: 0.5s;
+        opacity: 1;
+        
     }
     
     .list-app{

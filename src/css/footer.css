@@ -1,0 +1,49 @@
+footer, .content-footer {
+    margin-top: 4rem;
+    background: var(--general-color-theme);
+    width: 100%;
+    height: 15rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content-footer {
+    display: flex;
+    max-width: 80%;
+    width: 80%;
+    margin-left: 2rem;
+
+}
+
+.list-socials-footer {
+    display: flex;
+
+}
+
+.list-socials-footer li {
+    margin: 1rem 0.5rem;
+    opacity: 0.8;
+
+}
+
+.list-socials-footer li:hover {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.title-footer, .name-author, .name-author a, .all-reserved{
+    color: var(--general-color-fonts);
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.title-footer strong {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.title-footer strong:hover {
+    transition: 0.5s;
+    opacity: 1;
+}

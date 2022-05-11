@@ -7,38 +7,25 @@ function onScroll() {
     const home = document.querySelector("#home");
     const services = document.querySelector("#services").clientHeight;
     const btScroll = document.querySelector(".scroll-to-home");
-        
-    
+
     if (scrollY > header.clientHeight) {
+        var imgInner = '<img src="./assets/svg/Icon-light.svg" alt="icone para mostrar o menu mobile" class="icon-menu">';
         header.classList.add('turn')
         nav.classList.add('turn')
         strongTitle.classList.add('colored');
-        btToggle.innerHTML = '<img src="./assets/svg/Icon-light.svg" alt="icone para mostrar o menu mobile" class="icon-menu">'
-     }//else if (scrollY > home.clientHeight) {
-    //     btScroll.classList.remove('none-bt');
-    //     btScroll.classList.add('showed-bt');
-    //     btToggle.addEventListener('click', scrollToTop());
-    // }
-    else if (scrollY < home.clientHeight){
+        btToggle.innerHTML = `${imgInner}`;
+     }else if (scrollY < home.clientHeight){
         header.classList.remove('turn')
         nav.classList.remove('turn')
         strongTitle.classList.remove('colored');
         btToggle.innerHTML = '<img src="./assets/svg/Icon-dark.svg" alt="icone para mostrar o menu mobile" class="icon-menu">'
         btScroll.classList.remove('showed-bt')
-    }else {
-        return false
-    }
-
-    while(scrollY > services) {
+    }else if (scrollY > services) {
         btScroll.classList.remove('none-bt');
         btScroll.classList.add('showed-bt');
+   }else {
+        return false
     }
-    // for(let i = header.clientHeight; scrollY > i; i++) {
-    //     header.classList.add('turn')
-    //     nav.classList.add('turn')
-    //     strongTitle.classList.add('colored');
-    //     btToggle.innerHTML = '<img src="./assets/svg/Icon-light.svg" alt="icone para mostrar o menu mobile" class="icon-menu">'
-    // }
 };
 
 function scrollToTop() {
